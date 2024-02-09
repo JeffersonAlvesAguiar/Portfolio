@@ -1,0 +1,13 @@
+.aboutBox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.aboutProfession{
+    font-size: 24px;
+}

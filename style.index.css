@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  width: 100%;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;  
+  background-color:var(--background-color);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+

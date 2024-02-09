@@ -1,0 +1,77 @@
+.nav-bar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  gap: 5px;
+  box-shadow: 0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 60px #297eff,
+    0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 2px #297eff,
+    0px 0px 5px #297eff;
+  background-color: var(--background-color);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-bar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.sections {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 16px;
+  color: var(--color-secondary);
+  background: transparent;
+  font-size: 16px;
+}
+
+.sections:hover {
+  color: var(--color-primary);
+  box-shadow: 0px 1px 100px #297eff;
+  background: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .sections {
+    display: none;
+  }
+}
+
+a {
+  width: 100%;
+  text-decoration-line: none;
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: #297eff;
+}
+
+.menu {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menuOpen {
+  display: flex;
+}
+
+.menuClose {
+  display: none;
+}

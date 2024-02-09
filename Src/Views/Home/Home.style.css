@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-right: 1rem;
+  }
+}
