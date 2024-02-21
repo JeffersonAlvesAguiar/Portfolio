@@ -6,9 +6,3 @@
   padding-top: 7rem;
   padding-bottom: 10rem;
 }
-
-@media screen and (max-width: 1024px) {
-  .home {
-    padding-right: 1rem;
-  }
-}

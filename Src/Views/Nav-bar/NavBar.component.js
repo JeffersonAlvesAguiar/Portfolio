@@ -1,9 +1,6 @@
 
 const navBar = document.querySelector('.nav-bar');
 const menu = document.querySelector('.menu');
-menu.addEventListener('click', () => {
-    navBar.style.display = 'flex';
-});
 
 //---------------------------------------------------------------
 
@@ -80,27 +77,45 @@ menuClose.addEventListener('click', () => {
 //---------------------------------------------------------------
 
 function menuRederize() {
-    menuOpen.style.display = 'none';
-    menuClose.style.display = 'flex';
+    if (window.innerWidth <= 1024) {
+        navBar.style.width = '20%';
+        menuOpen.style.display = 'none';
+        menuClose.style.display = 'flex';
 
-    about.style.display = 'flex';
-    skills.style.display = 'flex';
-    experience.style.display = 'flex';
-    academic.style.display = 'flex';
-    linkedin.style.display = 'flex';
-    gitHub.style.display = 'flex';
+        about.style.display = 'flex';
+        skills.style.display = 'flex';
+        experience.style.display = 'flex';
+        academic.style.display = 'flex';
+        linkedin.style.display = 'flex';
+        gitHub.style.display = 'flex';
+    }
+ 
+    if (window.innerWidth <= 600) {
+        navBar.style.width = '50%';
+        menuOpen.style.display = 'none';
+        menuClose.style.display = 'flex';
+
+        about.style.display = 'flex';
+        skills.style.display = 'flex';
+        experience.style.display = 'flex';
+        academic.style.display = 'flex';
+        linkedin.style.display = 'flex';
+        gitHub.style.display = 'flex';
+    }
 }
 
 function menuRemove() {
-    menuClose.style.display = 'none';
-    menuOpen.style.display = 'flex';
+    if (window.innerWidth <= 1024) {
+        navBar.style.width = '2%';
+        menuClose.style.display = 'none';
+        menuOpen.style.display = 'flex';
 
-    about.style.display = 'none';
-    skills.style.display = 'none';
-    experience.style.display = 'none';
-    academic.style.display = 'none';
-    linkedin.style.display = 'none';
-    gitHub.style.display = 'none';
-
+        about.style.display = 'none';
+        skills.style.display = 'none';
+        experience.style.display = 'none';
+        academic.style.display = 'none';
+        linkedin.style.display = 'none';
+        gitHub.style.display = 'none';
+    }
 }
 

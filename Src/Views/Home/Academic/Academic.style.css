@@ -1,9 +1,16 @@
 .academicBox {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   color: var(--color-secondary);
+}
+
+@media screen and (max-width:600px){
+  .academicBox{
+    width: 90%;
+    padding-left: 3rem;
+  }
 }
 
 .academicTitle{

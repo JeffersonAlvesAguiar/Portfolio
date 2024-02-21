@@ -35,11 +35,11 @@
     ],
     "experiences": [
         {
-            "cargo": "front end",
+            "cargo": "Front end",
             "empresa": "Bem Protegido",
             "temp": "19-09-2022 | 10-08-2023",
             "description": "Como desenvolvedor Front-end, fui responsável pela implementação dos designs de uma aplicação corporativa, garantindo uma experiência visual intuitiva para os usuários ao acessarem serviços, informações de cadastro e detalhes sobre planos contratados.",
-            "skills": "angular | TypeScript | SCSS"
+            "skills": "Angular | TypeScript | SCSS"
         }
     ],
     "academics":[
