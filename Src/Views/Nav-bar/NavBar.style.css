@@ -67,11 +67,3 @@ a:hover {
   background: transparent;
   cursor: pointer;
 }
-
-.menuOpen {
-  display: flex;
-}
-
-.menuClose {
-  display: none;
-}

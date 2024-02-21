@@ -6,6 +6,7 @@ menu.addEventListener('click', () => {
 });
 
 //---------------------------------------------------------------
+
 const about = document.querySelector('.about');
 about.addEventListener('click', () => {
     if (window.innerWidth < 1024) {
@@ -70,6 +71,7 @@ menuOpen.addEventListener('click', () => {
 });
 
 const menuClose = document.querySelector('.menuClose');
+menuOpen.style.display = 'none';
 menuClose.addEventListener('click', () => {
     menuRemove()
 });
@@ -78,8 +80,8 @@ menuClose.addEventListener('click', () => {
 //---------------------------------------------------------------
 
 function menuRederize() {
-    menuClose.style.display = 'flex';
     menuOpen.style.display = 'none';
+    menuClose.style.display = 'flex';
 
     about.style.display = 'flex';
     skills.style.display = 'flex';
