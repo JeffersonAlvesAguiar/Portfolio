@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,30 +14,33 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <link rel="stylesheet" href="./Src/Theme/Style.theme.css" />
     <link rel="stylesheet" href="./style.index.css" />
     <link rel="stylesheet" href="./Src/Animation/Animation.css" />
 
-    <link rel="stylesheet" href="./Src/Views/Home/Home.style.css" />
+    <link rel="stylesheet" href="./Src/Theme/Style.theme.css" />
+    <link rel="stylesheet" href="./Src/wrapper/wrapper.css" />
 
     <link rel="stylesheet" href="./Src/Views/Nav-bar/NavBar.style.css" />
+    <link rel="stylesheet" href="./Src/Views/Home/style.css" />
+
     <link rel="stylesheet" href="./Src/Views/Home/About/About.style.css" />
-    <link rel="stylesheet" href="./Src/Views/Home/Skill/Skill.style.css" />
-    <link
-      rel="stylesheet"
-      href="./Src/Views/Home/Experience/Experience.style.css"
-    />
     <link
       rel="stylesheet"
       href="./Src/Views/Home/Academic/Academic.style.css"
     />
+    <link
+      rel="stylesheet"
+      href="./Src/Views/Home/Experience/Experience.style.css"
+    />
+    <link rel="stylesheet" href="./Src/Views/Home/Skill/Skill.style.css" />
 
     <title>Jefferson Alves</title>
   </head>
   <body>
-    <header>
-      <div class="nav-bar">
-        <button class="menu">
+    <div class="root"></div>
+    <!-- <header> -->
+    <!-- <div class="nav__bar"> -->
+    <!-- <button class="menu">
           <img
             class="menuClose"
             src="./Src/Icon/close_FILL0_wght400_GRAD0_opsz24.svg"
@@ -57,13 +60,12 @@
           <a href="#academicBox">Formação</a>
         </button>
         <button class="sections linkedin">Linkedin</button>
-        <button class="sections gitHub">GitHub</button>
-      </div>
-    </header>
+        <button class="sections gitHub">GitHub</button> -->
+    <!-- </div> -->
+    <!-- </header> -->
     <!----------------------------------------------------->
 
-    <div class="home">
-      <!----------------------------------------------------->
+    <!-- <div class="home">
 
       <div id="aboutBox"></div>
       <div class="aboutBox">
@@ -73,7 +75,6 @@
         <div class="aboutPit"></div>
       </div>
 
-      <!----------------------------------------------------->
 
       <div id="skillBox"></div>
       <div class="skillBox">
@@ -81,7 +82,6 @@
         <div class="cardContainer"></div>
       </div>
 
-      <!----------------------------------------------------->
 
       <div id="experienceBox"></div>
       <div class="experienceBox">
@@ -89,7 +89,6 @@
         <div class="cardContainerExperience"></div>
       </div>
 
-      <!----------------------------------------------------->
 
       <div id="academicBox"></div>
       <div class="academicBox">
@@ -97,13 +96,12 @@
         <div class="cardContainerAcademic"></div>
       </div>
 
-      <!----------------------------------------------------->
-    </div>
+    </div> -->
 
-    <!----------------------------------------------------->
+    <script src="./Src/app/app.js" type="module" defer></script>
+    <!-- <script src="./Src/Views/Nav-bar/NavBar.component.js" defer></script> -->
 
-    <script src="./Src/Views/Nav-bar/NavBar.component.js" defer></script>
-    <script src="./Src/Views/Home/About/About.component.js" defer></script>
+    <!-- <script src="./Src/Views/Home/About/About.component.js" defer></script>
     <script src="./Src/Views/Home/Skill/Skill.component.js" defer></script>
     <script
       src="./Src/Views/Home/Experience/Experience.component.js"
@@ -112,6 +110,6 @@
     <script
       src="./Src/Views/Home/Academic/Academic.component.js"
       defer
-    ></script>
+    ></script> -->
   </body>
 </html>

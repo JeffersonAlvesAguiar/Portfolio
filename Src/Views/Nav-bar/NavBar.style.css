@@ -1,91 +1,16 @@
-.nav-bar {
-  width: 100%;
+.nav__bar{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  top: 0;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  position: fixed;
-
-  box-shadow: 0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 20px #297eff,
-    0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 2px #297eff,
-    0px 0px 2px #297eff;
-  background-color: var(--background-color);
+  padding: 1rem 2rem;
+  background-color: var(--white-100);
 }
 
-.menu {
-  display: none;
+.nav__bar button{
+  color: var(--blue-light-500);
+  transition: 0.5ms ease-in-out;
 }
 
-.sections {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  cursor: pointer;
-  border-radius: 5px;
-  color: var(--color-secondary);
-  background: transparent;
-  font-size: 16px;
-}
-
-.sections:hover {
-  color: var(--color-primary);
-  box-shadow: 0px 1px 5px #297eff;
-  background: transparent;
-  border-bottom: 1px solid #297eff;
-}
-
-a {
-  width: 100%;
-  text-decoration-line: none;
-  color: var(--color-secondary);
-}
-
-a:hover {
-  color: #297eff;
-}
-
-@media screen and (max-width: 1024px) {
-  .nav-bar {
-    max-width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    position: fixed;
-    left: 0;
-
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    gap: 5px;
-    box-shadow: 0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 20px #297eff,
-      0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 2px #297eff,
-      0px 0px 2px #297eff;
-    background-color: var(--background-color);
-  }
-
-  .menu {
-    display: flex;
-    position: fixed;
-    top: 20px;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    cursor: pointer;
-  }
-
-
-}
-
-@media screen and (max-width: 600px) {
-  .nav-bar {
-    max-width: 50%;
-  }
+.nav__bar button:hover{
+  color: var(--blue-light-300);
 }

@@ -1,29 +1,36 @@
-const skillTitle = document.querySelector('.skillTitle');
-skillTitle.innerHTML = 'Minhas Skills e como eu as utilizo no dia a dia:'
+export const skill = document.createElement('div');
 
-fetch("dados.json").then((response) => {
-    response.json().then((dados) => {
-        const cardContainer = document.querySelector('.cardContainer')
+const teste = document.createElement('h1');
+teste.innerText = 'testando skill';
 
-        dados.skills.map((skill) => {
+skill.appendChild(teste);
 
-            const card = document.createElement('div');
-            card.classList.add('card');
-            card.classList.add('RightAnimation');
+// const skillTitle = document.querySelector('.skillTitle');
+// skillTitle.innerHTML = 'Minhas Skills e como eu as utilizo no dia a dia:'
 
-            const cardTitle = document.createElement('span');
-            cardTitle.classList.add('cardTitle');
-            cardTitle.innerHTML = skill.title
+// fetch("dados.json").then((response) => {
+//     response.json().then((dados) => {
+//         const cardContainer = document.querySelector('.cardContainer')
 
-            const cardText = document.createElement('span');
-            cardText.classList.add('cardText');
-            cardText.innerHTML = skill.text
+//         dados.skills.map((skill) => {
+
+//             const card = document.createElement('div');
+//             card.classList.add('card');
+//             card.classList.add('RightAnimation');
+
+//             const cardTitle = document.createElement('span');
+//             cardTitle.classList.add('cardTitle');
+//             cardTitle.innerHTML = skill.title
+
+//             const cardText = document.createElement('span');
+//             cardText.classList.add('cardText');
+//             cardText.innerHTML = skill.text
 
 
-            card.appendChild(cardTitle);
-            card.appendChild(cardText);
+//             card.appendChild(cardTitle);
+//             card.appendChild(cardText);
 
-            cardContainer.appendChild(card);
-        })
-    })
-})
+//             cardContainer.appendChild(card);
+//         })
+//     })
+// })
