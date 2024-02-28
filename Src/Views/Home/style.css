@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 3rem 0;
+  padding: 10rem 0 10rem 0;
 
   gap: 3rem;
 }
