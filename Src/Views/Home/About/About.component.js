@@ -1,17 +1,14 @@
+import { about__controller, cargo__controller, name__controller } from "../../../controller/about-controller/about.controller.js";
+
+
 export const about = document.createElement('div');
+about.classList.add('container__about');
 
-const teste = document.createElement('h1');
-teste.innerText = 'testando about';
+about.appendChild(cargo__controller);
+cargo__controller.classList.add('cargo__controller');
 
-about.appendChild(teste);
+about.appendChild(name__controller);
+name__controller.classList.add('name__controller');
 
-
-// const aboutProfession = document.querySelector('.aboutProfession');
-// aboutProfession.innerHTML = 'Developer_';
-
-// // const imgTeste = document.querySelector('.imgTeste');
-
-
-// let texto = "Olá! Seja bem-vindo! <br> Me chamo Jefferson Alves e estou na área de TI há dois anos. Ao longo dessa jornada, já trabalhei com JavaScript, TypeScript, React.js, Styled-components, Angular e SCSS. Tenho familiaridade com metodologias ágeis, como Scrum e Kanban. Tenho a intenção de me tornar um desenvolvedor Full Stack no futuro, e minha escolha para agregar no Back End é C# ASP.NET Core."
-// const aboutPit = document.querySelector('.aboutPit');
-// aboutPit.innerHTML = texto;
+about.appendChild(about__controller);
+about__controller.classList.add('about__controller');
