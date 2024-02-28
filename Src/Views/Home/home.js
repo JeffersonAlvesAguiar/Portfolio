@@ -8,5 +8,5 @@ home.classList.add('home');
 
 home.appendChild(about);
 home.appendChild(academic);
-home.appendChild(experience);
 home.appendChild(skill);
+home.appendChild(experience);

@@ -1,4 +1,4 @@
-import { about__controller, cargo__controller, name__controller } from "../../../controller/about-controller/about.controller.js";
+import { about__controller, cargo__controller, name__controller } from '../../../controller/home-controller/about-controller/about.controller.js';
 
 
 export const about = document.createElement('div');
