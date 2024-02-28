@@ -1,36 +1,20 @@
+import { html__skil__controller, description__skill__controller } from "../../../controller/home-controller/skill-controller/skill.controller.js";
+import { card } from "../../../components/card/card.component.js";
+import { carroussel } from "../../../components/carroussel/carrousel.js";
+
 export const skill = document.createElement('div');
+skill.classList.add('container__skill');
 
-const teste = document.createElement('h1');
-teste.innerText = 'testando skill';
+const title__skill = document.createElement('span');
+title__skill.innerText = 'Minhas Skills:'
+title__skill.classList.add('title__skill')
+skill.appendChild(title__skill);
 
-skill.appendChild(teste);
+card.appendChild(html__skil__controller);
+card.appendChild(description__skill__controller);
 
-// const skillTitle = document.querySelector('.skillTitle');
-// skillTitle.innerHTML = 'Minhas Skills e como eu as utilizo no dia a dia:'
+carroussel.appendChild(card);
+carroussel.classList.add('carroussel__skill');
+card.classList.add('card__skill');
 
-// fetch("dados.json").then((response) => {
-//     response.json().then((dados) => {
-//         const cardContainer = document.querySelector('.cardContainer')
-
-//         dados.skills.map((skill) => {
-
-//             const card = document.createElement('div');
-//             card.classList.add('card');
-//             card.classList.add('RightAnimation');
-
-//             const cardTitle = document.createElement('span');
-//             cardTitle.classList.add('cardTitle');
-//             cardTitle.innerHTML = skill.title
-
-//             const cardText = document.createElement('span');
-//             cardText.classList.add('cardText');
-//             cardText.innerHTML = skill.text
-
-
-//             card.appendChild(cardTitle);
-//             card.appendChild(cardText);
-
-//             cardContainer.appendChild(card);
-//         })
-//     })
-// })
+skill.appendChild(carroussel);
