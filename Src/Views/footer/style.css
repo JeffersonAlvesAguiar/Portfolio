@@ -1,9 +1,0 @@
-.container__footer{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
-
-    box-shadow: 0px 0px 5px 1px var(--blue-light-100);
-}
