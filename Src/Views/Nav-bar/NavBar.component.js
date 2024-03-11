@@ -22,26 +22,6 @@ skills.addEventListener('click', () => {
 });
 
 //---------------------------------------------------------------
-
-const experience = document.querySelector('.experience');
-experience.addEventListener('click', () => {
-    if (window.innerWidth < 1024) {
-        menuRemove()
-    }
-
-});
-
-//---------------------------------------------------------------
-
-const academic = document.querySelector('.academic');
-academic.addEventListener('click', () => {
-    if (window.innerWidth < 1024) {
-        menuRemove()
-    }
-
-});
-
-//---------------------------------------------------------------
 const linkedin = document.querySelector('.linkedin');
 linkedin.addEventListener('click', () => {
     window.open('https://www.linkedin.com/in/jefferson-alves-developer/', '_blank');
