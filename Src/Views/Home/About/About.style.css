@@ -1,5 +1,6 @@
 .container__about {
   width: 70%;
+  height: 100vh;
   display: flex;
   align-items: start;
   flex-direction: column;
