@@ -1,0 +1,28 @@
+.container__footer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box__author__footer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.author__footer {
+  font-size: var(--font-size-200);
+}
+
+.box__contact__footer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__footer {
+  font-size: var(--font-size-200);
+}
