@@ -4,26 +4,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
+}
+
+.box__img__profile {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: blueviolet;
 }
 
 .img__profile {
-  width: 15%;
+  width: 20%;
   border-radius: 100%;
   box-shadow: 0px 0px 5px 3px var(--blue-light-500);
 }
 
 .box__description__profile {
+  width: 50%;
   display: flex;
   align-items: start;
   flex-direction: column;
   gap: 2rem;
 }
 
-.box__description{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
+.box__description {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 
 .name__description__profile {
@@ -34,14 +44,26 @@
   font-size: var(--font-size-200);
 }
 
-.box__bnt__profile{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.box__bnt__profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-.bnt__social{
-    padding: 0.5rem 2rem;
-    box-shadow: 0px 0px 5px 1px var(--blue-light-500);
-    cursor: pointer;
+.bnt__social {
+  padding: 0.5rem 2rem;
+  box-shadow: 0px 0px 5px 1px var(--blue-light-500);
+  cursor: pointer;
+}
+
+.box__skill__profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.svg__skill {
+  width: 10%;
 }
