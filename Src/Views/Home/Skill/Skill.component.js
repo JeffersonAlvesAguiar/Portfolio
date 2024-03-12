@@ -1,5 +1,6 @@
 export const skill = document.createElement('div');
 skill.classList.add('container__skill');
+skill.classList.add('RightAnimation');
 
 const title__skill = document.createElement('span');
 title__skill.classList.add('title__skill');

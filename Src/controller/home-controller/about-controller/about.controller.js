@@ -1,7 +1,7 @@
-export const cargo__controller = document.createElement('p');
+export const cargo__controller = document.createElement('span');
 cargo__controller.innerText = 'Developer';
 
-export const name__controller = document.createElement('p');
+export const name__controller = document.createElement('span');
 name__controller.innerText = 'Jefferson';
 
 export const about__controller = document.createElement('p');

@@ -2,7 +2,7 @@
     z-index: -1;
     animation: appear 1ms ease-in-out;
     animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+    animation-range: cover 0% cover 35%;
   }
   
   @keyframes appear {
