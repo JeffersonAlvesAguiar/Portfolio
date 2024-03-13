@@ -25,4 +25,8 @@
 
 .contact__footer {
   font-size: var(--font-size-200);
+  color: black;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
 }

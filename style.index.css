@@ -12,6 +12,7 @@ body{
   font-weight: weight;
   font-style: normal;  
   background-color:var(--white-100);
+  line-height: 1.5;
 }
 
 html{
