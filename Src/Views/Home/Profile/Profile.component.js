@@ -35,10 +35,14 @@ box__bnt__profile.classList.add('box__bnt__profile');
 
 const bnt__gitHub = document.createElement('a');
 bnt__gitHub.classList.add('bnt__social');
+bnt__gitHub.href = 'https://github.com/JeffersonAlvesAguiar';
+bnt__gitHub.target = 'blank';
 bnt__gitHub.innerText = 'GitHub';
 
 const bnt__linkedin = document.createElement('a');
 bnt__linkedin.classList.add('bnt__social');
+bnt__linkedin.href = 'https://www.linkedin.com/in/jefferson-alves-developer/';
+bnt__linkedin.target = 'blank';
 bnt__linkedin.innerText = 'Linkedin';
 
 box__bnt__profile.appendChild(bnt__gitHub);
