@@ -1,10 +1,9 @@
 :root {
-  --color-primary: #297eff;
-  --color-secondary: #fafafa;
-  --background-color: #3b3b3b;
-  --box-shadow: 0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 60px #297eff,
-    0px 0px 2px #297eff, 0px 0px 2px #297eff, 0px 0px 2px #297eff,
-    0px 0px 5px #297eff;
+  /* color primary */
+  --color-primary: #1c1c1c;
+
+  /* color secundary */
+  --color-secundary: #303030;
 
   /* gray */
   --gray-100: #595959;
