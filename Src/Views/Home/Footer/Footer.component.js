@@ -1,4 +1,5 @@
 export const footer = document.createElement('div');
+footer.id = 'section__footer';
 footer.classList.add('container__footer');
 
 // box conteudo autor 

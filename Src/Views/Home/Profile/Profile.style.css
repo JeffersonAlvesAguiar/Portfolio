@@ -57,6 +57,12 @@
   padding: 0.5rem 2rem;
   box-shadow: 0px 0px 5px 1px var(--blue-light-500);
   cursor: pointer;
+  color: var(--blue-light-500);
+}
+
+.bnt__social:hover {
+  box-shadow: 0px 0px 5px 1px var(--blue-light-300);
+  color: var(--blue-light-300);
 }
 
 .box__skill__profile {

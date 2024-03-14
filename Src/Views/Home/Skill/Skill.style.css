@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   align-items: start;
+  justify-content: center;
   flex-direction: column;
 }
 

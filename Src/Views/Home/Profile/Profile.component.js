@@ -1,4 +1,5 @@
 export const profile = document.createElement('div');
+profile.id = 'section__about';
 profile.classList.add('profile__container');
 
 // --------------------------------------------------

@@ -1,6 +1,7 @@
 export const skill = document.createElement('div');
 skill.classList.add('container__skill');
 skill.classList.add('RightAnimation');
+skill.id = 'section__skill';
 
 // -----------------------------------------------
 
@@ -63,11 +64,11 @@ const box__soft__skill = document.createElement('div');
 box__soft__skill.classList.add('box__soft__skill');
 
 const scrum__soft__skill = document.createElement('span');
-scrum__soft__skill.classList.add('name__soft__skill'); 
+scrum__soft__skill.classList.add('name__soft__skill');
 scrum__soft__skill.innerText = '- Scrum';
 
 const kanban__soft__skill = document.createElement('span');
-kanban__soft__skill.classList.add('name__soft__skill'); 
+kanban__soft__skill.classList.add('name__soft__skill');
 kanban__soft__skill.innerText = '- Kanban';
 
 
