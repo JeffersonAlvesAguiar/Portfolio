@@ -4,8 +4,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 3rem 0;
-  background-color: var(--color-primary);
-  box-shadow: 0px 0px 5px 1px var(--blue-light-500);
+  background-color: var(--blue-light-500);
 }
 
 .box__author__footer {
@@ -33,5 +32,5 @@
 }
 
 .contact__footer:hover {
-  color: var(--blue-light-300);
+  opacity: 0.8;
 }

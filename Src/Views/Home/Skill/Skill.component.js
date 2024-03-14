@@ -77,6 +77,14 @@ box__soft__skill.appendChild(kanban__soft__skill);
 
 // -----------------------------------------------
 
-skill.appendChild(title__skill);
-skill.appendChild(box__hard__skill);
-skill.appendChild(box__soft__skill);
+const box__description__skill = document.createElement('div');
+box__description__skill.classList.add('box__description__skill');
+
+box__description__skill.appendChild(title__skill);
+box__description__skill.appendChild(box__hard__skill);
+box__description__skill.appendChild(box__soft__skill);
+
+
+// -----------------------------------------------
+
+skill.appendChild(box__description__skill);
