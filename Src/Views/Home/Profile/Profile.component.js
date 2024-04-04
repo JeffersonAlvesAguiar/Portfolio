@@ -24,7 +24,7 @@ name__description__profile.innerText = 'Jefferson Alves';
 
 const cargo__description__profile = document.createElement('span');
 cargo__description__profile.classList.add('cargo__description__profile');
-cargo__description__profile.innerText = 'Olá! Seja bem-vindo! Estou na área de TI há dois anos. Ao longo dessa jornada, já trabalhei com JavaScript, TypeScript, React.js, Styled-components, Angular e SCSS. Tenho familiaridade com metodologias ágeis, Scrum e Kanban. Tenho a intenção de me tornar um desenvolvedor Full Stack no futuro, e minha escolha para agregar no Back End é C# ASP.NET Core.';
+cargo__description__profile.innerText = 'Olá! Seja bem-vindo! Estou na área de TI há dois anos. Ao longo dessa jornada, já trabalhei com JavaScript, TypeScript, React.js, Styled-components, Angular e SCSS. Tenho familiaridade com metodologias ágeis, Scrum e Kanban.';
 
 box__description.appendChild(name__description__profile);
 box__description.appendChild(cargo__description__profile);
